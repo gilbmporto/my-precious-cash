@@ -38,8 +38,7 @@ export default function RootLayout({
               href="/"
               className="font-bold text-xl flex gap-1 items-center"
             >
-              <ChartColumnBigIcon className="text-lime-600" /> Your Precious
-              Cash
+              <ChartColumnBigIcon className="text-lime-600" /> My Precious Cash
             </Link>
             <div>
               <SignedOut>
