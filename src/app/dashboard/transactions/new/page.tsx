@@ -1,3 +1,4 @@
+import TransactionForm from "@/components/TransactionForm"
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -37,7 +38,9 @@ function NewTransactionPage() {
         <CardHeader>
           <CardTitle>New Transaction</CardTitle>
         </CardHeader>
-        <CardContent>New Transaction Form</CardContent>
+        <CardContent>
+          <TransactionForm />
+        </CardContent>
       </Card>
     </div>
   )
